@@ -23,15 +23,9 @@ pipeline{
         stage("Display param") {
             steps {
                 script {
-                    if(VAR)
-                    {
-                      Echo “my value is true”
-                    }
-                    else if(VAR)
-                    {
-                         Echo “my value is false”
-
-                    }
+                    
+                      Echo VAR
+                    
                   
                 }
             }
