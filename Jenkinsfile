@@ -24,7 +24,7 @@ pipeline{
             steps {
                 script {
                     
-                      Echo VAR
+                      Echo '{VAR}'
                     
                   
                 }
