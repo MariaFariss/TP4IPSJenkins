@@ -40,8 +40,8 @@ pipeline {
         stage('build') {
             steps {
                 echo 'build'
-                bat 'python -m pip install --upgrade pip'
-                bat 'python -m pip install -r requirements.txt'
+                bat 'pip3 install --upgrade pip'
+                bat 'pip3 install -r requirements.txt'
             }
         }
         stage('test') {
